@@ -107,7 +107,8 @@
     width:100%;
 }
 .afishaPage p{
-    width:142px;
+    width:100%;
+    max-width:142px;
     margin-top: 30px;
     margin-bottom: 17px;
     font-family: Montserrat;
@@ -183,9 +184,9 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 24px;
     /* or 125% */
-
+    text-align: center;
     letter-spacing: -0.015em;
 
     color: rgba(0, 0, 0, 0.8);

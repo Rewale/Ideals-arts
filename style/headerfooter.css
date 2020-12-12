@@ -110,9 +110,12 @@ footer{
     justify-content: space-around;
     padding-top: 50px;
 }
+footer img{
+    margin-bottom: auto;
+}
 .contacts{
     max-width:183px;
-    width:30%;
+    width:33%;
 }
 .contacts p{
     font-family: Montserrat;
