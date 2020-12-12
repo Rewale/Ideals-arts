@@ -166,3 +166,9 @@ footer img{
         display: none;
     }
 }
+@media(max-width:500px)
+{
+    footer img{
+        width:30%;
+    }
+}
