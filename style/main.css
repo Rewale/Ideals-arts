@@ -1,0 +1,247 @@
+#title{
+    background-color: #BBAAAA;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#title p{   
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 80px;
+    /* or 143% */
+
+    letter-spacing: -0.015em;
+    padding-top: 350px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+#title img{
+    width:30%;
+    height: 676px;
+}
+
+.titleForEvrthng{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    margin: 0px;
+    
+    
+
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    background-color: #D7CDCD;
+    padding-left: 57px;
+    justify-content: space-between;
+}
+#about p{
+    max-width: 1080px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.aboutTitle
+{
+   
+    padding-top:    10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+#afisha{
+    background-color: #BBAAAA;
+    
+}
+#afisha .titleForEvrthng{
+    padding-left: 57px;
+}
+#contentAfisha{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    margin: auto;
+    justify-content: space-around;
+}
+.afishaPage{
+    display: flex;
+    
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.afishaPage img{
+    width:100%;
+}
+.afishaPage p{
+    width:142px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    /* or 208% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+    
+}
+.afishaPage a{
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.015em;
+
+    /* Actionable Item */
+
+    color: #18A0FB;
+    text-decoration: none;
+}
+.afishaPage a:hover{
+    text-decoration: underline;
+}
+#gall{    
+    padding-left: 57px;
+    background-color: #BBAAAA;    
+}
+#contentGall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:90%;
+    margin: auto;
+}
+.PageGall{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    max-width: 250px;
+}
+.PageGall img{
+    width:100%;
+}
+.PageGall h4{
+    /* Body H4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.PageGall p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+@media(max-width:885px)
+{
+
+}
+@media(max-width:600px)
+{
+    .PageGall h4{
+        font-size:12px;
+
+    }
+    .PageGall p{
+        font-size:9px;
+        
+    }
+    .afishaPage p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 15px;
+        /* or 150% */    
+    }
+    .afishaPage a{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 30px;
+        /* or 333% */
+        letter-spacing: -0.015em;
+    
+    }
+    .titleForEvrthng{
+        font-size: 24px;
+    }
+    #gall,#afisha .titleForEvrthng,#about{
+        padding-left: 17px;
+    }
+    .titleForEvrthng{
+        padding: 30px 0px;
+        margin: 0px;
+    }
+    #about p,#about h2{
+        font-size: 16px;
+    }
+}
+@media(max-width:500px)
+{
+    #title img{
+        height:500px;
+    }
+    #title p{
+        padding-top: 150px;
+    }
+}
