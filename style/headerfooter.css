@@ -1,7 +1,12 @@
+/*Общий css файл для общих параметров элементов всех
+страниц (хедер, футер, бади)*/
+
+
 body{
     padding: 0px;
     margin: 0px;
 }
+/*Шапка*/
 header{    
     background-color: #BBBBBB;
     padding-bottom: 5px;
@@ -10,12 +15,15 @@ header{
 .hide-nav{
     display: none;
 }
+/*Иконка меню*/
 #nav-toggle{
     width:50px;    
 }
+/*Лого сайта*/
 #logo{
     padding-top: 5px;
 }
+/*Выдвигающееся меню*/
 .list-hide{
     
     right:0;
@@ -44,6 +52,7 @@ header{
 .list-hide a:hover{
     text-decoration: underline;
 }
+/*Содержимое хедера*/
 #content-head{
     display:flex;
     flex-direction: row;
@@ -51,6 +60,7 @@ header{
     width: 90%;
     margin: auto;
 }
+/*Список в хедере*/
 .list-header{
     list-style: none;
     display: flex;
@@ -78,11 +88,13 @@ header a{
 .list-header a:hover{
     text-decoration:underline;    
 }
+/*Кнопки регистрации и входа*/
 .butt-nav{
     display: flex;
     flex-direction: row;
-    margin-top: 7px;
+    margin-top: 13px;
 }
+/*Кнопка*/
 #Butt{
     display: flex;
     align-items: center;
@@ -103,6 +115,7 @@ header a{
     
     letter-spacing: -0.015em;
 }
+/*Подвал*/
 footer{
     background-color:#BBBBBB;
     display: flex;
@@ -113,6 +126,7 @@ footer{
 footer img{
     margin-bottom: auto;
 }
+/*Контакты и Адрес*/
 .contacts{
     max-width:183px;
     width:33%;
@@ -141,6 +155,11 @@ footer img{
 
     color: #000000;
 }
+
+
+
+/*Медиа-запросы*/
+
 
 @media(max-width:950px)
 {

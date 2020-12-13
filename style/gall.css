@@ -1,0 +1,61 @@
+/*Секция галереи*/
+#gall{    
+    padding-left: 57px;
+    background-color: #BBAAAA;    
+}
+/*Содержимое галереи*/
+#contentGall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:90%;
+    margin: auto;
+}
+/*Картина и автор*/
+.PageGall{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    max-width: 250px;
+}
+.PageGall img{
+    width:100%;
+}
+/*Название картины*/
+.PageGall h4{
+    /* Body H4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+/*автор*/
+.PageGall p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    /* or 125% */
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+/*Измененный параграф афишы, используемый
+для секции "Работы Учеников"*/
+.afishaPage p{
+    max-width:90%;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    margin: 0;
+}

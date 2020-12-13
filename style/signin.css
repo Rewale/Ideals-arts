@@ -1,0 +1,63 @@
+body{
+    background-color: #E5E5E5;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width:50%;
+    min-height: 400px;
+    max-width: 600px;
+    margin: 200px auto ;
+}
+#form h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 80px;
+    /* or 143% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+
+}
+.simpleText{
+    width:80%;
+    padding: 10px;
+    padding-left: 36px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+#contein{
+    display: flex;
+    width:80%;
+    margin-left: -50px;
+    align-items: flex-start;
+}
+.Button_join{
+    color:#fff;
+    width: 20%;    
+    min-width: 204px;
+    height: 52px;
+    text-align: center;
+    font-family: Montserrat;
+    background-color:#18A0FB;
+    border: 0px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size:15px;
+}

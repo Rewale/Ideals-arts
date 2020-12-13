@@ -1,0 +1,79 @@
+body{
+    background-color: #D7CDCD;
+}
+h2{
+    width:90%;
+    margin: 30px auto ;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 30px;
+    /* or 62% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+#Prof{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:90%;
+    
+    margin: auto;
+    
+}
+#pics{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#artits{
+    width:35%;
+}
+#artits img{
+    width:100%;
+    max-width: 400px;
+    
+    
+    
+}
+table img{
+    width:25%;
+    padding: 19px 35px;
+}
+#ct, #au{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+#au{
+    font-size: 24px;
+}
+
+#artits p{
+    
+    
+    
+    display: inline-block;
+    max-width: 500px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    /* or 100% */
+
+    letter-spacing: -0.015em;
+
+}
