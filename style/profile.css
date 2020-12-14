@@ -1,9 +1,10 @@
 body{
     background-color: #D7CDCD;
 }
+/*Заголовок страницы*/
 h2{
     width:90%;
-    margin: 30px auto ;
+    margin: 70px auto ;
     
     font-family: Montserrat;
     font-style: normal;
@@ -16,6 +17,7 @@ h2{
 
     color: #000000;
 }
+/*Основное содержимое страницы*/
 #Prof{
     display: flex;
     flex-direction: row;
@@ -23,14 +25,17 @@ h2{
     width:90%;
     
     margin: auto;
+    margin-bottom: 50px;
     
 }
+/*Правая часть содержимого с цитатой и картинками*/
 #pics{
     width:50%;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
+/*Художник и информация о нем*/
 #artits{
     width:35%;
 }
@@ -40,10 +45,12 @@ h2{
     
     
 }
+/*Картины художника*/
 table img{
     width:25%;
     padding: 19px 35px;
 }
+/*Цитата и автор*/
 #ct, #au{
     font-family: Montserrat;
     font-style: normal;
@@ -59,7 +66,7 @@ table img{
 #au{
     font-size: 24px;
 }
-
+/*Информация о художнике*/
 #artits p{
     
     
